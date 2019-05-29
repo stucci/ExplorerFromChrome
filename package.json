@@ -1,0 +1,11 @@
+{
+    "name": "ExplorerFromChrome",
+    "version": "0.0.1",
+    "description": "Server_for_Explorer_from_Chrome",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "installService": "winser -i -a",
+        "uninstallService": "winser -r -x"
+    }
+}

@@ -1,0 +1,11 @@
+{
+   "extension_description": {
+      "message": "Make it possible to open by click a link to a local file that is disabled by Chrome."
+   },
+   "extension_name": {
+      "message": "Enable local file links"
+   },
+   "page_not_loaded": {
+      "message": "The page is not loaded."
+   }
+}
