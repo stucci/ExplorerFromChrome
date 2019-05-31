@@ -24,4 +24,5 @@ var server = http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('This server is made for chrome extension `Explorer from Chrome`\n');
   }
-}).listen(8080);
+}).listen(8080, 'localhost');
+// }).listen(8080, '0.0.0.0');
